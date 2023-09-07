@@ -3,10 +3,13 @@
     --black-color: #170102;
 }
 
-body{
+main{
     font-family: "Montserrat", sans-serif;
+    color: var(--black-color);
+    overflow: hidden;
 }
 
 .text-serif{
     font-family: "DM Serif Display", serif;
+    color: var(--black-color);
 }

@@ -5,6 +5,13 @@
     align-items: center;
 }
 
+
+.logo-bar {
+    position: absolute;
+    top: 0;
+}
+
+
 .plate {
     width: 120px;
     height: auto;
@@ -19,10 +26,17 @@
     top: 0;
     z-index: -1;
     border-radius: 0 0 50% 50%;
-    transform: translate(0, -45%);    
+    transform: translate(0, -45%);
 }
 
-.hero-content{
+
+
+.hero {
+    position: relative;
+    padding-bottom: 4rem;
+}
+
+.hero-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,4 +57,23 @@
     padding: 0.75rem 1.5rem;
     border-radius: 20px;
     width: fit-content;
+}
+
+.left-floating {
+    width: 140px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transform: rotate(15deg) translate(-20%, 25%) scaleX(-1);
+}
+
+.right-floating {
+    width: 120px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    transform: rotate(-15deg) translate(10%, 30%);
+
 }
